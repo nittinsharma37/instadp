@@ -1,0 +1,38 @@
+footer #copy {
+    margin: auto;
+    top: 10px;
+}
+
+.huv {
+    left: 50%;
+}
+
+.huv a {
+    display: inline-flex;
+    height: 50px;
+    width: 50px;
+    text-decoration: none;
+    background-color: rgb(34, 24, 33);
+    color: #fff;
+    margin: 0 6px;
+    margin-bottom: 15px;
+    border-radius: 46%;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    transition: 0.4s;
+}
+
+.huv a:hover {
+    background-color: olive;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.huv a i {
+    transition: 0.4s all;
+}
+
+.huv a:hover i {
+    transform: scale(2) rotate(360deg);
+    text-shadow: 2px 2px 4px #000000;
+}
