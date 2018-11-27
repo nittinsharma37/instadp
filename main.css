@@ -1,0 +1,271 @@
+                                                                                                    /*@import url('https://fonts.googleapis.com/css?family=Nunito');*/
+                                                                                                    
+                                                                                                    @font-face {
+                                                                                                        font-family: customfont;
+                                                                                                        src: url(../fonts/xirod.ttf)
+                                                                                                    }
+                                                                                                    
+                                                                                                    body {
+                                                                                                        margin: 1vw;
+                                                                                                        background-color: rgba(140, 140, 140, 0.3);
+                                                                                                    }
+                                                                                                    
+                                                                                                    .container {
+                                                                                                        width: 80%;
+                                                                                                        margin: auto;
+                                                                                                        overflow: hidden;
+                                                                                                    }
+                                                                                                }
+                                                                                                ul {
+                                                                                                    margin: 0;
+                                                                                                    padding: 0;
+                                                                                                }
+                                                                                                header {
+                                                                                                    background-image: url(../media/back.png);
+                                                                                                    background-size: auto;
+                                                                                                    color: white;
+                                                                                                    padding-top: 30px;
+                                                                                                    min-height: 70px;
+                                                                                                    border-bottom: cyan 4px solid;
+                                                                                                    border-top: cyan 3px solid;
+                                                                                                    border-left: cyan 3px solid;
+                                                                                                    border-right: cyan 3px solid;
+                                                                                                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                                                                                                }
+                                                                                                header a {
+                                                                                                    display: inline;
+                                                                                                    color: #ffffff;
+                                                                                                    text-decoration: none;
+                                                                                                    text-transform: uppercase;
+                                                                                                    font-size: 2vw;
+                                                                                                    font-weight: bolder;
+                                                                                                    padding-left: 10%;
+                                                                                                    margin-top: -20pt;
+                                                                                                }
+                                                                                                header a:hover {
+                                                                                                    display: inline;
+                                                                                                    color: cyan;
+                                                                                                    text-decoration: underline;
+                                                                                                    text-transform: lowercase;
+                                                                                                    font-size: 2vw;
+                                                                                                    font-style: oblique;
+                                                                                                    padding-left: 10%;
+                                                                                                    margin-top: -20pt;
+                                                                                                }
+                                                                                                header li {
+                                                                                                    display: inline;
+                                                                                                    padding: 0 10px 0 10px;
+                                                                                                }
+                                                                                                header #branding img {
+                                                                                                    float: left;
+                                                                                                    height: 80px;
+                                                                                                    width: 50%;
+                                                                                                    margin-top: -15px;
+                                                                                                    overflow: auto;
+                                                                                                }
+                                                                                                .container3 {
+                                                                                                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                                                                                                    background-color: rgba(128, 128, 128, 0.2);
+                                                                                                    border-radius: 45px;
+                                                                                                    margin-bottom: 25pt;
+                                                                                                }
+                                                                                                .container3:hover {
+                                                                                                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+                                                                                                    background-color: rgba(0, 255, 255, 0.2);
+                                                                                                    border-radius: 45px;
+                                                                                                    margin-bottom: 25pt;
+                                                                                                }
+                                                                                                #welcome {
+                                                                                                    text-align: center;
+                                                                                                    font-size-adjust: inherit;
+                                                                                                    font-size: 26pt;
+                                                                                                    text-decoration: underline;
+                                                                                                    font-family: customfont;
+                                                                                                    text-decoration-style: double;
+                                                                                                    text-decoration-color: coral;
+                                                                                                    color: brown;
+                                                                                                    margin: 20px;
+                                                                                                }
+                                                                                                #content {
+                                                                                                    margin: 10px;
+                                                                                                    font-style: normal;
+                                                                                                    font-stretch: semi-condensed;
+                                                                                                    margin-bottom: 25px;
+                                                                                                    font-family: monospace;
+                                                                                                    font-weight: bolder;
+                                                                                                    font-size: 22px;
+                                                                                                }
+                                                                                                #help {
+                                                                                                    margin: 10px;
+                                                                                                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                                                                                                    font-weight: bold;
+                                                                                                    text-decoration: none;
+                                                                                                    color: brown;
+                                                                                                    text-decoration-style: none;
+                                                                                                    text-decoration-color: black;
+                                                                                                    -webkit-text-stroke: tomato;
+                                                                                                    margin-left: 35px;
+                                                                                                    font-size: 20px;
+                                                                                                }
+                                                                                                #help1 {
+                                                                                                    margin: 10px;
+                                                                                                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                                                                                                    font-weight: bold;
+                                                                                                    text-decoration: underline;
+                                                                                                    color: brown;
+                                                                                                    text-decoration-style: none;
+                                                                                                    text-decoration-color: brown;
+                                                                                                    -webkit-text-stroke: tomato;
+                                                                                                    margin-left: 35px;
+                                                                                                    font-size: 20px;
+                                                                                                }
+                                                                                                #help2 {
+                                                                                                    margin: 10px;
+                                                                                                    font-style: normal;
+                                                                                                    font-stretch: semi-condensed;
+                                                                                                    margin-bottom: 25px;
+                                                                                                    font-family: monospace;
+                                                                                                    font-weight: bolder;
+                                                                                                    font-size: 22px;
+                                                                                                }
+                                                                                                .search {
+                                                                                                    height: 50vh;
+                                                                                                    width: 100%;
+                                                                                                    text-align: center;
+                                                                                                    margin-bottom: 3vw;
+                                                                                                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+                                                                                                }
+                                                                                                .search h1 {
+                                                                                                    padding-top: 25px;
+                                                                                                    color: brown;
+                                                                                                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                                                                                                    text-decoration: underline overline;
+                                                                                                    font-style: italic;
+                                                                                                    font-weight: bolder;
+                                                                                                }
+                                                                                                .input {
+                                                                                                    margin: 3vw;
+                                                                                                }
+                                                                                                .input input[type="text"] {
+                                                                                                    margin: 5px;
+                                                                                                    height: 30px;
+                                                                                                    width: 300px;
+                                                                                                    border-radius: 10px;
+                                                                                                    padding-left: 10px;
+                                                                                                    padding-right: 10px;
+                                                                                                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+                                                                                                }
+                                                                                                .button {
+                                                                                                    height: 10vh;
+                                                                                                    width: 200px;
+                                                                                                    background: brown;
+                                                                                                    padding-left: 20px;
+                                                                                                    padding-right: 20px;
+                                                                                                    color: #ffffff;
+                                                                                                    font-size: 26px;
+                                                                                                    cursor: pointer;
+                                                                                                    border-radius: 90px;
+                                                                                                }
+                                                                                                .button:hover {
+                                                                                                    height: 10vh;
+                                                                                                    width: 200px;
+                                                                                                    border: 3px solid cyan;
+                                                                                                    background: brown;
+                                                                                                    padding-left: 20px;
+                                                                                                    padding-right: 20px;
+                                                                                                    color: black;
+                                                                                                    cursor: pointer;
+                                                                                                    border-radius: 90px;
+                                                                                                    font-stretch: narrower;
+                                                                                                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+                                                                                                }
+                                                                                                .container {
+                                                                                                    margin-bottom: 2vh;
+                                                                                                    width: 50vw;
+                                                                                                    left: 60vw;
+                                                                                                    border-radius: 10px;
+                                                                                                    margin-top: 1.5vh;
+                                                                                                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                                                                                                }
+                                                                                                .user-name {
+                                                                                                    height: 6vh;
+                                                                                                    background-color: white;
+                                                                                                    border-radius: 10px 10px 0px 0px;
+                                                                                                }
+                                                                                                .name {
+                                                                                                    float: right;
+                                                                                                    padding-top: 1vh;
+                                                                                                    padding-left: 15px;
+                                                                                                }
+                                                                                                .name .image {
+                                                                                                    height: 30px;
+                                                                                                    width: 30px;
+                                                                                                    float: left;
+                                                                                                }
+                                                                                                .image img {
+                                                                                                    height: 30px;
+                                                                                                    width: 30px;
+                                                                                                    border-radius: 50px;
+                                                                                                    cursor: pointer;
+                                                                                                }
+                                                                                                .image img:hover {
+                                                                                                    opacity: 0.5;
+                                                                                                    border: 3px solid gray;
+                                                                                                }
+                                                                                                .name .instauser {
+                                                                                                    float: left;
+                                                                                                    font-size: 16px;
+                                                                                                    font-weight: 600;
+                                                                                                    padding-top: 0.5vh;
+                                                                                                    padding-left: 0.5vw;
+                                                                                                    font-family: 'Nunito', sans-serif;
+                                                                                                    cursor: pointer;
+                                                                                                }
+                                                                                                .instauser a {
+                                                                                                    text-decoration: none;
+                                                                                                    color: black;
+                                                                                                }
+                                                                                                .instauser:hover {
+                                                                                                    text-decoration: underline;
+                                                                                                }
+                                                                                                .follow {
+                                                                                                    float: right;
+                                                                                                }
+                                                                                                .profile-pic {
+                                                                                                    height: 85vh;
+                                                                                                    background-color: #f2e8e8;
+                                                                                                }
+                                                                                                .profile-pic img {
+                                                                                                    height: 85vh;
+                                                                                                    width: 45vw;
+                                                                                                    display: none;
+                                                                                                }
+                                                                                                footer {
+                                                                                                    background-image: url(../media/back.png);
+                                                                                                    height: auto;
+                                                                                                    width: 100%;
+                                                                                                    line-height: 0%;
+                                                                                                }
+                                                                                                #copy {
+                                                                                                    padding-left: 30vw;
+                                                                                                    font-size: 1vw;
+                                                                                                    padding-top: 2px;
+                                                                                                    font-family: customfont;
+                                                                                                }
+                                                                                                @media(max-width: 654px) {
+                                                                                                    header .container2,
+                                                                                                    #branding,
+                                                                                                    header nav,
+                                                                                                    header nav li,
+                                                                                                    h1,
+                                                                                                    .container3,
+                                                                                                    .search,
+                                                                                                    .input,
+                                                                                                    .button,
+                                                                                                    .button:hover,
+                                                                                                    #footer,
+                                                                                                    {
+                                                                                                        float: none;
+                                                                                                        text-align: center;
+                                                                                                        width: 100%;
+                                                                                                    }
