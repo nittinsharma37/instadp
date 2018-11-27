@@ -1,0 +1,53 @@
+@media only screen and (max-width: 1000px) {
+  .sidenav-section {
+    width: 100vw;
+    float: none;
+    height: 10em;
+  }
+
+  .header {
+    padding-top: 10px;
+    height: 18vh;
+  }
+
+  .logo {
+    position: static;
+  }
+
+  .logo img {
+    width: 200px;
+  }
+
+  .search {
+    position: static;
+  }
+
+  input[type = "text"] {
+    width: 75vw;
+  }
+
+  input[type = "submit"] {
+    width: 100px;
+  }
+
+  .container {
+    left: 5vw;
+    right: 5vw;
+    width: 90vw;
+    margin-bottom: 1vh;
+  }
+
+  .profile-pic {
+    height: 63vh;
+    width: 90vw;
+  }
+
+  .profile-pic img {
+    height: 63vh;
+    width: 90vw;
+  }
+
+  .thumbnails {
+    display: none;
+  }
+}
